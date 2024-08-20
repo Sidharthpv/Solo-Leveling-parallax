@@ -1,0 +1,199 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    
+}
+
+.titlebanner{
+    background-image: url(https://www.dexerto.com/cdn-cgi/image/width=3840,quality=60,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/09/10/solo-leveling-anime-poster.jpeg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+}
+
+.row1{
+    background-color: black;
+    width: 100%;
+    height: 650px;
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+p{
+    font-size: 30px;
+    color: white;
+    animation: appear linear;
+    animation-timeline: view();
+}
+
+.weak-era{
+    background-image: url(https://img.anime2you.de/2023/11/solo-leveling-anime.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    background-attachment: fixed;
+}
+
+.era-header{
+    position: relative;
+    color: white;
+    margin-top: -28%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    text-shadow: 4px 6px rgb(70, 184, 222);
+
+}
+
+.row2{
+    background-color: black;
+    width: 100%;
+    height: 550px;
+    filter: drop-shadow(0px 80px 40px black);
+}
+
+.power-gain{
+    background-image: url(https://i.ytimg.com/vi/8qKvkYlwnVw/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    background-attachment: fixed;
+}
+
+.blank-row{
+    background-color: black;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    margin-top: -35%;
+    filter: drop-shadow(0px -80px 40px black);
+    
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.levels{
+    color: white;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 4px rgb(70, 184, 222);
+    animation: appear linear;
+    animation-timeline: view();
+    
+}
+
+.growth{
+    background-image: url(https://www.hindustantimes.com/ht-img/img/2024/02/13/1600x900/GE2N4iaW8AA5Adz_1706358434283_1707829639662.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    background-attachment: fixed;
+}
+
+.level-row{
+    height: 800px;
+    background-color: black;
+}
+
+.row3{
+    background-color: black;
+    width: 100%;
+    height: 1900px;
+    filter: drop-shadow(0px 80px 40px black);
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+        filter: drop-shadow(3px 4px 20px black);
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        filter: drop-shadow(3px 4px 20px black);
+    }
+}
+
+/* @keyframes shadowanime{
+    from{
+        filter: drop-shadow(3px 4px 20px black);
+    }
+    to{
+        filter: drop-shadow(3px 4px 20px rgb(55, 185, 228));
+    }
+} */
+
+.row3 img{
+    animation: appear linear;
+    animation-timeline: view();
+    /* animation-name: shadowanime; */
+    animation-duration: 5s;
+}
+
+.op{
+    background-image: url(https://motionbgs.com/media/2770/shadows-army-solo-leveling.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    background-attachment: fixed;
+}
+
+.blank-row2{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-top: -20%;
+    filter: drop-shadow(0px -80px 40px black);
+}
+
+.op2{
+    background-image: url(/images/2171851.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    background-attachment: fixed;
+}
+
+.logo{
+    position: relative;
+    margin-top: -40%;
+    margin-left: 10%;
+    
+}
+
+.era-header2{
+    position: relative;
+    color: rgba(255, 255, 255, 0.745);
+    margin-top: -80%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    text-shadow: 4px 6px rgb(70, 184, 222, 0.745);
+}
